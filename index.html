@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter</title>
+    <h1> Word Counter</h1>
+</head>
+<body>
+    <form action="{% url 'count' %}">
+    <textarea name="fulltext" id="" cols="70" rows="20"></textarea>    
+    <br>
+    <input type="submit" value="count">
+    </form>
+</body>
+</html>
